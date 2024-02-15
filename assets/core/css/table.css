@@ -1,0 +1,826 @@
+
+  .billite-table {
+    min-height: 140px !important;
+   width: 100%;
+   margin-bottom: 1rem;
+   color: #212529; 
+  }
+
+   .billite-table th, .billite-table td {
+     padding: 0.75rem;
+     vertical-align: top;
+     border-top: 1px solid #dee2e6; 
+    }
+
+   .billite-table thead th {
+     vertical-align: baseline;
+     border-bottom: 2px solid #dee2e6; 
+    }
+
+   .billite-table tbody + tbody {
+     border-top: 2px solid #dee2e6; 
+    }
+ 
+ .billite-table {
+   min-width: 100% !important;
+   width: 100%;
+   -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+   -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+   box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29); 
+   margin-top: 30px;
+   table-layout:fixed;
+ }
+
+ 
+ .table-billite tbody td, .table-billite thead th
+ {
+  text-align: left !important;
+ }
+  
+   .billite-table thead th {
+    text-transform: uppercase;
+    letter-spacing: 1.05px;
+    text-align: center !important;
+     border: none;
+     font-size: 12px;
+     font-weight: 600;
+     color: #333;
+     white-space:nowrap;
+     background: var(--title-background) !important;
+   }
+
+   .report-table thead th {
+    padding-left: 0px;
+    text-align: center !important;
+}
+
+   .billite-table thead tr {
+     background: transparent;
+    border-bottom: 1px solid transparent; 
+   }
+
+   .billite-table tbody tr {
+    border-bottom: 0.5px solid #ddd;
+}
+     .billite-table tbody tr:last-child {
+       border-bottom: 0; }
+
+   .billite-table tbody th, .billite-table tbody td {
+     border: none;
+     font-size: 13.5px;
+     background: transparent;
+     vertical-align: middle; 
+     text-align: center;
+     white-space: nowrap !important;
+   }
+
+   .billite-table tbody td.name{
+    text-align: left;
+   }
+
+   #reports-download .report-table th, #reports-download .tableCountStyle th,#invoice .report-table th{
+    padding: 0.75rem !important;
+    text-align: center !important;
+    /* width: inherit !important; */
+   }
+
+   #reports-download .report-table th.rep_amt, #reports-download .report-table td.rep_amt
+   {
+    text-align: right !important;
+    padding: 0.75rem !important;
+   }
+
+   #reports-download .tableCountStyle tr{
+    width: unset !important;
+   }
+
+   .billite-table tbody td {
+    padding: 20px 15px !important;
+   }
+
+   .billite-table:has(.customicon) tbody tr td:first-child{
+    padding: 0 !important;
+   }
+
+   
+   .billite-table:has(.customicon) tbody tr td:nth-child(2), .billite-table:has(.customicon) thead th:nth-child(2){
+    padding-left: 0 !important;
+   }
+
+/* 
+   .billite-table tbody td.amount, .billite-table tbody td.subtotal, .billite-table tbody td.balance, .billite-table thead th.pay{
+    padding-right: 30px !important;
+} */
+
+   .billite-table th.filter_row{
+    padding: 10px 0px 10px 10px !important;
+    text-align: right !important;
+   }
+
+   .billite-table tbody td.filter_row{
+    padding: 0 !important;
+  }
+  
+
+   .billite-table th.filter_row::before, .billite-table th.filter_row::after{
+    display: none !important;
+    padding: 0 !important;
+   }
+
+   .billite-table td.filter_row{
+    padding: 0 !important;
+   }
+   
+   /*--------------------- Report Payment Page -------------------------*/
+
+/* .payment-report .billite-table thead th, .payment-report .billite-table tbody td {
+    border: none;
+    padding: 1rem !important;
+    font-size: 12px;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center !important;
+    white-space: nowrap !important;
+} */
+
+/* ----------- Customize Table------------- */
+
+input[type='checkbox'] {
+ accent-color: green !important;
+}
+ .check1 {
+display: none;
+position: fixed;
+z-index: 9;
+}
+
+ a.box1 {
+ margin-left: 2rem;
+   color: gray !important;
+ }
+
+.check1{
+ border: 1px solid;
+ width: 12%;
+ padding-top: 7px;
+ padding-right: 15px;
+ margin-top: 75px;
+ margin-bottom: 10px;
+ margin-left: 16px !important;
+ background-color: #fff;
+ color: gray;
+ border-radius: 4px;
+ 
+}
+.check1 .check{
+ display: flex;
+ margin-left: 10px;
+ margin-bottom: 0.5rem;
+}
+
+.check1 a{
+   font-size: 13px;
+   font-weight: 500;
+}
+
+.close-list {
+ margin-left: 12px;
+ color: white;
+ background: var(--button-color) !important;
+ width: -webkit-fill-available;
+ margin-bottom: 10px;
+ border: none;
+ padding: 5px;
+ border-radius: 5px;
+ font-size: 13px;
+ font-weight: 500;
+}
+
+table#datatable1 {
+ display: block !important;
+ max-width: -moz-fit-content !important;
+ max-width: fit-content !important;
+ margin: 0 auto !important;
+ overflow-x: scroll !important;
+ white-space: nowrap !important;
+}
+
+/* ------------------ New Table ----------------------- */
+
+i#popup-trigger {
+ cursor: pointer;
+ font-size: 14px !important;
+}
+
+.birth, .surname, .gender, .language, .website, .country{
+     display: none;
+   }
+
+div#datatable2_filter {
+ text-align: right !important;
+ margin-left: 76.5% !important;
+ margin-top: 0px !important;
+ margin-bottom: 15px !important;
+ font-size: .9rem !important;
+}
+
+div#datatable2_filter input[type="search"]{
+justify-content: flex-end !important;
+margin-left: 5px !important;
+border: 0.5px solid;
+border-radius: 4px;
+border-color: #ccc;
+padding: 2px 0px 2px 0px !important;
+}
+
+div#datatable2_paginate {
+ display: flex !important;
+ justify-content: end !important;
+ margin-top: -20px !important;
+ margin-left: 81.5% !important;
+ font-size: .85rem !important;
+ margin-right: 0.5rem;
+}
+
+div#datatable2_info {
+  font-size: .9rem !important;
+  margin-left: 0.9rem;
+}
+
+a#datatable2_previous {
+border: 1px solid;
+border-radius: 4px;
+padding: 3px;
+padding-left: 7px !important;
+padding-right: 7px !important;
+margin-right:10px ;
+background: #fff !important;
+color: #000 !important;
+opacity: 0.5;
+
+}
+
+a#datatable2_next {
+border: 1px solid;
+border-radius: 4px;
+padding: 3px;
+padding-left: 7px !important;
+padding-right: 7px !important;
+margin-left:10px ;
+background: #fff !important;
+color: #000 !important;
+opacity: 0.5;
+}
+
+a.paginate_button.current {
+padding: 4px 10px 5px 10px;
+border-radius: 5px;
+margin: 0px 5px !important;
+color: #fff !important;
+background: var(--button-color);
+line-height: 28px !important;
+box-shadow: none;
+}
+
+div#datatable2_length {
+font-size: .9rem;
+margin-bottom:-2% !important ;
+
+}
+
+div#datatable2_length label{
+margin-top: 2rem !important;
+margin-left: 1rem !important;
+}
+
+#datatable2_filter label {
+ display: inline-block !important;
+ margin-top: 5% !important;
+ text-transform: uppercase;
+ font-weight: 600;
+ margin-right: .5rem;
+}
+
+tbody,td, tr, tfoot, thead {
+ border-color: inherit;
+ border-style: solid;
+ border-width: 0;
+ width: 1% !important;
+}
+
+#datatable2_length select {
+ border-radius: 4px;
+}
+#myForm{
+ display: none !important;
+ position: absolute !important;
+}
+
+#myForm.show {
+ display: block !important;
+}
+
+
+
+/* ----- Later Changes -----  */
+
+
+/* ------------- Client View ---------------*/
+
+#save_client_note {
+  margin-left: -4px !important;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+width: 90px !important;
+margin: auto !important;
+padding-top: 18px !important;
+padding-bottom: 18px !important;
+}
+.nav-tabs li a {
+line-height: 1.428571429;
+border: 0px !important;
+margin: 0!important;
+text-decoration: none;
+}
+
+/* ------------- Client View End---------------*/
+
+/* ------------- Client Form Start---------------*/
+
+.btn-group>.btn {
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+margin-right: 5px;
+}
+
+.frm .btn-group, .btn-group-vertical {
+position: relative;
+display: inline-flex;
+vertical-align: middle;
+margin-right: 10px !important;
+margin-top: 7px;
+}
+
+.frm{
+padding: 0px 0px !important;
+display: flex;
+}
+
+.frm .headerbar-title {
+display: inline-block !important;
+font-size: 15px !important;
+    margin: 10px 10px 5px !important;
+line-height: 1.5 !important;
+width: -webkit-fill-available !important;
+}
+
+.fa-fw {
+text-align: center !important;
+margin-top: 5px !important;
+font-size: 0.75rem;
+margin-left: -8px !important;
+}
+
+
+
+/* ------------- Client Form End---------------*/
+
+/*--------------------- Invoice Index Recurring start -------------------------*/
+
+#headerbar .headerbar-title {
+display: inline-block;
+font-size: 14px;
+margin: 0px !important;
+line-height: 1.5;
+}
+
+/*--------------------- Invoice Index Recurring End -------------------------*/
+
+/*------------------ Invoice Archive Start --------------------*/
+
+#input {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center !important;
+width: 100%;
+}
+
+
+.archive .title {
+display: inline-block;
+font-size: 14px;
+margin: 10px 0 5px !important;
+line-height: 1.5;
+}
+
+/*------------------ Invoice Archive End --------------------*/
+
+/*------------------- Products Form Start---------------------------*/
+
+.product .title {
+display: inline-block !important;
+font-size: 14px !important;
+margin: 10px 0 5px !important;
+line-height: 1.5 !important;
+}
+
+/*------------------- Products Form End---------------------------*/
+
+/*----------- Model Create Invoice -----------*/
+
+#close1 {
+cursor: pointer;
+margin-left: auto;
+}
+
+
+.label.active {
+  background-color: #58a959;
+  color: #fff !important;
+  max-width: 65px !important;
+}
+
+.label.inactive {
+  background-color: #c76e6d;
+  max-width: 65px !important;
+ }
+ 
+
+ .all_status .label {
+    max-width: 70px;
+    letter-spacing: 0.65px;
+    margin: auto !important;
+}
+
+/* ---------------- Add Client -------------- */
+
+#headerbar {
+    padding: 15px 15px 10px 5px !important;
+    border-bottom: 1px solid #ddd !important;
+/*    border-top: 1px solid #ddd !important;*/
+    background: var(--title-background) !important;
+}
+
+
+.dark-mode #headerbar {
+    padding: 25px 15px 25px 5px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    background: var(--dark-background) !important;
+}
+
+div#headerbar\ setting-header {
+   padding: 15px 5px 10px 5px !important;
+   border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid #ddd !important;
+    background: #fff !important;
+    position: fixed;
+    top: 60px;
+    width: 95%;
+    z-index: 1;
+    display: flex;
+}
+
+div#headerbar\ user-header {
+    padding: 15px 5px 10px 5px !important;
+    border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid #ddd !important;
+    background: #fff !important;
+    position: fixed;
+    top: 60px;
+    width: 95%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-mode #headerbar\ user-header, .dark-mode #headerbar\ setting-header  {
+  border-bottom: 0px !important;
+}
+
+.setting-title {
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.headerbar-item{
+ margin-left: 0px !important;
+ margin-right: 0px !important;
+ display: flex;
+}
+
+.headerbar-item button, .headerbar-item .btn{
+  border-radius: 8px !important;
+  background-color: var(--button-color) !important;
+  border: 0px !important;
+  font-size: 0.75rem !important;
+  padding: 5px 10px !important;
+  margin: 0px 2.5px !important;
+  letter-spacing: 0.65px;
+  color: #fff;
+ }
+ 
+ .billite-table .options .btn:hover, .billite-table .options .btn:focus{
+  background-color: transparent !important;
+  color: var(--button-color) !important;
+  border-color: var(--button-color) !important;;
+
+}
+ 
+ .option .options .dropdown-menu li i::before {
+   color: var(--button-color) !important;
+ }
+
+ .option .options .dropdown-menu li i{
+  margin: 0 !important;
+  margin-right: 7px !important;
+  text-align: center !important;
+ }
+
+
+#content{
+   padding-left: 15px !important;
+   padding-top: 30px !important;
+}
+
+#addclientcontent{
+ padding-top: 30px !important;
+ padding-left: 30px !important;
+ background: transparent !important;
+}
+
+
+.frm .btn-group, .btn-group-vertical{
+   margin-top: 0px !important;
+}
+
+form{
+ background: transparent !important;
+}
+
+.headerbar-title{
+ font-size: 1rem !important;
+ padding-left: 15px !important;
+}
+
+/* ----------------- View Quotes --------------- */
+
+.button1{
+ order: 1 !important;
+}
+.button2{
+ order: 2 !important;
+
+  margin-bottom: 0.5rem;
+}
+.button3{
+ order: 3 !important;
+}
+
+.quotes-section{
+ background: #fff !important;
+}
+
+.quote-status span {
+    max-width: 75px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.client-table{
+ background: grey !important;
+}
+
+#save_client_note {
+ background-color: var(--button-color)!important;
+ width: auto;
+ display: flex;
+ align-items: center;
+ color: #fff;
+}
+
+
+
+/* ---------------- Product form---------------- */
+
+
+#productheaderbar{
+ padding: 15px 5px 10px 15px !important;
+  border-bottom: 1px solid #ddd !important;
+  display: flex !important;
+  background: var(--title-background) !important;
+  justify-content: space-between !important;
+}
+
+#productheaderbar .title{
+ font-size: 1rem !important;
+ padding-left: 15px !important;
+}
+
+
+#productcontent{
+  padding-left: 25px !important;
+  padding-right: 15px !important;
+  padding-top: 30px !important;
+  background: var(--title-background) !important;
+}
+
+/* --------------- Email Template -------------------- */
+
+
+.emailtemp .headerbar-title{
+ width: 83%;
+}
+
+/* ------------------ Invoice Archive ---------------- */
+
+.archivebutton{
+ margin-left: 64% !important;
+}
+
+.archivebutton form{
+ width: 60% !important;
+}
+
+.archivebutton .btn{
+ margin: 0px 13.5px !important;
+}
+
+.archive .title{
+ font-size: 1rem !important;
+}
+
+/* ------------ Reports Invoice Aging--------------- */
+
+#headeraging {
+  padding: 15px 5px 10px 5px !important;
+  border-bottom: 1px solid #ddd !important;
+  display: flex !important;
+  background: var(--title-background) !important;
+  min-height: 48px I !important;
+}
+
+/* ------------ Reports payment history--------------- */
+#headerpay{
+  padding: 15px 5px 10px 5px !important;
+  border-bottom: 1px solid #ddd !important;
+  display: flex !important;
+  background: var(--title-background) !important;
+  min-height: 48px !important;
+}
+
+/* ------------ Reports sales by client--------------- */
+#headersales{
+  padding: 15px 5px 10px 5px !important;
+  border-bottom: 1px solid #ddd !important;
+  display: flex !important;
+  background: var(--title-background) !important;
+  min-height: 48px !important;
+}
+
+.input-group #to_date {
+  width: inherit !important;
+}
+
+.input-group #from_date {
+  width: inherit !important;
+}
+
+/* ------------ Reports sales by years--------------- */
+#headeryear{
+  padding: 15px 5px 10px 5px !important;
+  border-bottom: 1px solid #ddd !important;
+  display: flex !important;
+  background: var(--title-background) !important;
+  min-height: 48px !important;
+}
+
+/*------------------------ Setting Alert Message ----------------------------*/
+ .setting-content .alert 
+ {
+    margin-right: -1rem;
+    margin-left: 13.5rem;
+}
+
+.setting_new_tabs .alert 
+ {
+    margin-left: 5rem !important;
+}
+
+
+/*------------------- Hide Some table columns -------------------------*/
+
+#hide_column
+{
+  display: none;
+}
+
+.balance 
+{
+  text-align: right;
+}
+
+.billite-table tbody td.balance,  .billite-table th.balance,
+.billite-table th.amount, .billite-table tbody td.amount,
+.billite-table th.pay, .billite-table tbody td.subtotal, 
+.billite-table th.subtotal, .billite-table th.billed, .billite-table tbody td.billed,
+.billite-table th.total_tax, .billite-table td.total_tax, 
+.billite-table th.tax_total, .billite-table td.tax_total{
+  text-align: right !important;
+  padding-right: 30px !important;
+}
+
+.billite-table tbody .client_name {
+    text-align: left !important;
+}
+
+.billite-table th.name, .billite-table th.repname, .billite-table th.client_name, #reports-download .billite-table th.name
+{
+  text-align: left !important;
+}
+
+/*---------------------- Custom Year Popup ----------------------------*/
+
+#report-custom, #report-year, #report-month, #report-financial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#custom-form{
+ display: none ;
+ position: absolute ;
+}
+
+#custom-form.show {
+ display: block !important;
+}
+
+.datepick {
+    z-index: 9;
+    border: 0.5px solid #ccc;
+    width: 25%;
+    padding: 10px 30px;
+    top: 79%;
+    left: 16.5% !important;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.client-view-payment thead th{
+  width: 1% !important;
+  padding-left: 35px !important;
+}
+
+.view-pagination {
+    margin-right: 2rem !important;
+    padding-bottom: 1.5% !important;
+}
+
+.table>tbody>tr>td{
+border:0px;
+}
+
+table {
+  table-layout: auto !important;
+  width: 100% !important;
+}
+
+.datepicker table{
+  width: unset !important;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+  padding: 0.8rem !important;
+}
+
+.home .statistics-color {
+  height: 100px;
+}
+
+.tableCountStyle {
+  min-height: 63vh !important;
+}
+
+.billite-table thead tr th:first-child:has(.customicon)::before, .billite-table thead tr th:first-child:has(.customicon)::after{
+  display: none !important;
+}
+
+.billite-table thead tr th:first-child:has(.customicon){
+  padding: 0 !important;
+}
+
+.billite-table thead tr th i{
+  width: unset !important;
+}
+
+table#item_table {
+  height: unset !important;
+}
+
+#reports-download .billite-table.tableCountStyle {
+  min-height: unset !important;
+}
