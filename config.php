@@ -4,7 +4,7 @@
 # Set your URL without trailing slash here, e.g. http://your-domain.com
 # If you use a subdomain, use http://subdomain.your-domain.com
 # If you use a subfolder, use http://your-domain.com/subfolder
-IP_URL=https://axiomconsulting.in/appdemo/billite/
+IP_URL=http://localhost/billite
 
 # Having problems? Enable debug by changing the value to 'true' to enable advanced logging
 ENABLE_DEBUG=true
@@ -18,10 +18,10 @@ REMOVE_INDEXPHP=false
 
 # These database settings are set during the initial setup
 DB_HOSTNAME=localhost
-DB_USERNAME=u966383008_invoicedemo
-DB_PASSWORD=j@R4x1FT
-DB_DATABASE=u966383008_invoicedemo
-DB_PORT=
+DB_USERNAME=root
+DB_PASSWORD=
+DB_DATABASE=billite
+DB_PORT=3306
 
 # If you want to be logged out after closing your browser window, set this setting to 0 (ZERO).
 # The number represents the amount of minutes after that IP will automatically log out users,
